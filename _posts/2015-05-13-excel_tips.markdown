@@ -36,7 +36,7 @@ Programmers use more powerful tools to control new versions of software. Code is
     <img src="/assets/article_images/2015-05-13-excel_tips/github.png" />
 </center>
 
-On the left I see an old file and on the right I see a new one. My colleague changed height from 6 to 3 (_em_ is a unit of measure). I can write a comment and ask him to change it to another value.
+On the left I see an old file and on the right I see a new one. My coworker changed height from 6 to 3 (_em_ is a unit of measure). I can write a comment and ask him to change it to another value.
 
 Office allows you to track changes but it’s not that powerful. If you need a better version control for Excel there are some projects like http://spreadgit.com/ that introduce tracking changes to spreadsheets. We have also built a product that lets you build software by writing Excel-like formulas separately and manage them in tools like github, but that’s a story for another time.
 
