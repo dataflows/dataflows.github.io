@@ -31,7 +31,7 @@ Name your cells and ranges. The bigger your Excel gets the more difficult it is 
 
 Keep track of all versions of your spreadsheet. The easiest way is to just include the creation date in the name of the file. Anytime you change the spreadsheet make a copy of it first and change the date to today. This way you will have a complete history of your changes. Same thing is possible if you use Sharepoint that keeps older versions of your documents and allows you to go back to previous files in case an error was introduced in a new one.
 
-Programmers use more powerful tools to control new versions of software. Code is often written by more than one programmer. It would be impossible to keep track of all changes and keep the code consistent if it hadn’t been for version control systems (git, svn and others). We use tools like (GitHub)[http://github.com] that let us see any change made by our colleague online and comment it. Not only do we keep history of versions but we also see what exactly has changed between two versions.
+Programmers use more powerful tools to control new versions of software. Code is often written by more than one programmer. It would be impossible to keep track of all changes and keep the code consistent if it hadn’t been for version control systems (git, svn and others). We use tools like [GitHub](http://github.com) that let us see any change made by our colleague online and comment it. Not only do we keep history of versions but we also see what exactly has changed between two versions.
 <center>
     <img src="/assets/article_images/2015-05-13-excel_tips/github.png" />
 </center>
