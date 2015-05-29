@@ -18,7 +18,7 @@ The answer might sound a little surprising to some of you, but it's... **Excel**
 
 | | |
 |----------|:-------------:|
-| <i class="fa fa-code fa-3x"></i></center> | Number of professional software developers is estimated to be 11 millions. With hobbyists it's around 18,5 millions. [[1]] |
+| <i class="fa fa-code fa-3x"></i></center> | Number of professional software developers is estimated to be 11 million. With hobbyists it's around 18,5 million. [[1]] |
 | <i class="fa fa-file-excel-o fa-3x"></i></center> | There is no official statement given by Microsoft regarding the number of Excel users worldwide. After doing quick research online one can find that the number of users nowadays is probably more than 500 million.
 
 <div class="ct-chart ct-major-twelfth" id="chart-users"></div>
