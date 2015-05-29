@@ -1,5 +1,7 @@
 # Build settings
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: pygments
 gems:
   - jemoji
@@ -29,7 +31,8 @@ authors:
     filip:
         name: 'Filip Stachura'
         author: 'Filip Stachura'
-        image: ""
+        image: "/assets/images/filip.jpg"
+        bio: "CEO at Dataflows"
     damian:
         name: 'Damian Rodziewicz'
         author: 'Damian Rodziewicz'
