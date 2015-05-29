@@ -1,0 +1,126 @@
+---
+layout: post
+title:  "How software is made? Spreadsheets versus dedicated software."
+subtitle:  "There must be a third way."
+author: filip
+date:   2015-05-29 18:00:00
+categories: vision
+tags: software spreadsheets Excel programming languages Dataflows
+image: /assets/article_images/2015-05-28-software/chip.jpg
+---
+
+Okey, so let me start with a quick one:
+> What is the most popular programming language?
+
+The answer might sound a little surprising to some of you, but it's... **Excel**.
+
+## Show me the numbers
+
+| | |
+|----------|:-------------:|
+| <i class="fa fa-code fa-3x"></i></center> | Number of professional software developers is estimated to be 11 millions. With hobbyists it's around 18,5 millions. [[1]] |
+| <i class="fa fa-file-excel-o fa-3x"></i></center> | There is no official statement given by Microsoft regarding the number of Excel users worldwide. After doing quick research online one can find that the number of users nowadays is probably more than 500 million.
+
+<div class="ct-chart ct-major-twelfth" id="chart-users"></div>
+
+## What I understand as a software
+
+Definitions may vary. According to [wikipedia] it is:
+> Any set of machine-readable instructions that directs a computer's processor to perform specific operations.
+
+I will go with even simpler definition. For me software is:
+
+<center>
+    <img src="/assets/article_images/2015-05-28-software/soft.jpeg" />
+</center>
+
+With that definition in mind I would not classify creating text documents as a software (although text editor is a software).
+Two fundamental ways to create software are: programming and spreadsheets. One can also classify complex databases as a software, but in my opinion such databases are as complex as programming.
+
+Lets take a look at these two ways.
+
+## Programming
+
+Learning how to program a computer is a complex process. In typical case becoming a programmer takes several years and starts with a passion. Strong mathematical and analytical thinking is a fair advantage. As a result of programming being that hard we have less programmers than we need. What is more: even for proficient programmers creating applications takes _a lot of time_.
+
+But hard work is rewarded. Proficient programmers have **great power**. They can create magical stuff that changes how others behave.
+They speed up our work by improving _communication_, they let others _analyse_ or _summarize_ faster and they _automate repetitive_ tasks.
+
+Moreover each year new programming libraries are published and constantly improved. They let programmers move faster and build more complex applications by reusing what has already been solved.
+We also see a great innovation in improving the process of creating software. Things like _continuous integration_ or _peer code review_ aim to bring source code quality to the next level.
+
+## Spreadsheets
+
+It is way easier to start using Excel than to start programming. You don't have to care about databases or source code. Just double-click and you're all set.
+
+> ### Digression
+> If you take a closer look, people in fact _are_ programming in Excel. Using formulas like:
+> `=SUMIF(A2:A7,"Vegetables",C2:C7)` or `=SUMIF(B2:B7,"*es",C2:C7)` is a perfect example of functional programming. I am not going to explain details, but lets just state that functional
+> programming languages are currently on the rise, getting more atention than ever before.
+
+Why is it all so easy? There are many reasons and I can only guess. I think that it's a great connection of:
+
+- great visual representation
+- having bunch of equations here and there, without side effects
+- not having to think about order of evaluation
+
+Thanks to that Excel has become a standard in business. Vast amount of tasks can be held without a need to speak with IT department. And speaking to   IT _always_ means costs. Both in time and cash.
+
+Are there any negative consequences of having such an easy start? Oh yes, there are. Almost all models that I have seen in my life are becoming a mess sooner or later - _no matter how hard you try_. Making sure that your model is legitimate after performing even small changes can be a pain after a while. You can forget about tracking changes and _code review_ or having different access rights for many people (e.g. two people having separate access to different parts of same spreadsheet).
+
+In the end you cannot reuse or share your work with others. More complex models cannot be built if you need to start **building from scratch** every time.
+
+## Summary
+
+Let's take a look at this plot:
+
+<div class="ct-chart ct-golden-section" id="chart-summary"></div>
+| | | | |
+|----------|:-------------:|----------|:-------------:|
+| <i class="fa fa-square" style="color:#f05b4f"></i></center> | Spreadsheets | <i class="fa fa-square" style="color:#d70206"></i></center> | Programming |
+
+## Is there another way?
+In _Dataflows_ we believe there is. We aim to bring what's good from two worlds and provide an alternative way.
+Something that builds on top of simple **formulas** and lets you create applications that are maintainable.
+
+We see that there is an enormous number of solutions that are not being built because there aren't enough programmers in the world.
+
+If you believe in that vision as well please let us know [by mail] or in the comments!
+
+[1]: http://www.infoq.com/news/2014/01/IDC-software-developers "IDC Study: How Many Software Developers Are Out There?"
+[wikipedia]: http://en.wikipedia.org/wiki/Software "Software - Wikipedia definition"
+[by mail]: mailto:filip@dataflows.io "filip@dataflows.io"
+
+<script>
+window.onload=function() {
+    new Chartist.Bar('#chart-users', {
+      labels: ['Excel users', 'Software developers'],
+      series: [500, 18]
+    }, {
+      distributeSeries: true
+    });
+    new Chartist.Bar('#chart-summary', {
+     labels: ['Hard learning', 'Short term costs', 'Long term costs', 'Difficult to reuse others work'],
+     series: [
+       [1, 2, 6, 10],
+       [9, 7, 3, 2]
+     ]
+    }, {
+     seriesBarDistance: 20,
+     reverseData: true,
+     horizontalBars: true,
+     axisY: {
+       offset: 70
+     },
+     axisX: {
+       offset: 0
+     }
+    }).on('draw', function(data) {
+      if(data.type === 'bar') {
+        data.element.attr({
+          style: 'stroke-width: 20px'
+        });
+      }
+    });
+}
+</script>
