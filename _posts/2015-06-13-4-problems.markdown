@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "4 problems with business applications"
+subtitle:  "Which problem do you have?"
+author: pawel
+date:   2015-06-13 21:00:00
+categories: vision
+tags: business software spreadsheets Excel applications Dataflows
+image: /assets/article_images/2015-06-13-4-problems/4-problems-small.jpg
+---
+
+Let me start with simple infographic. There are generally 3 ways how businesses get their software
+tools:
+
+* they buy ready application
+* they hire/outsource programmers to build new solution
+* they just use Excel and build tool on their own
+
+Seems like broad range of possibilites - but notice that each of these ways have disadvantages:
+
+<center>
+    <img src="/assets/article_images/2015-06-13-4-problems/infographic-1.jpg" />
+</center>
+
+## Problem 1: Cost
+
+Companies have a lot of requirements for their software. To meet them, companies (a) use their own IT department
+(b) they outsource it. Hiring software developers is expensive, so smaller companies usually can't afford it.
+
+## Problem 2: Quick adjustments
+
+Business requirements can change rapidly. 
+
+The common story looks like this: company has a tool, where functionalities depend on market situation. They develop this tool with their IT department. And what happens when business situation changes? They order a functionalities update from their IT department and wait several weeks until it is implemented. This is insane! During these weeks, situation can change again many times. IT department can't keep up with the amount of updates. In the effect, company switches to Excel, where business people can instantly adjust their tools on their own.
+
+## Problem 3: Reliability
+
+Business tools have to be reliable. Do you trust your Excel spreadsheets? In small solutions it is possible
+to be calm about this. But when solutions grow, there is a huge risk of mistakes in computations. Just read
+[this list](http://www.eusprig.org/horror-stories.htm) how companies lost milions of dollars because of spreadsheet errors. Reliability is necessary, thus companies switch to dedicated software.
+
+## Problem 4: Custom functionalities
+
+Again - companies have a lot of special requirements. This may be exporting data to specific kind of report, connecting with external data sources or fancy chart. This is hard to acheve when you buy ready app or use Excel. Usually, the only solution is to hire programmers.
+
+## There is a way to overcome all these problems
+
+At Dataflows, we see a potential in creating tool which can be used as easily as Excel, where you can build
+powerful and reliable business apps. Thanks to using spreadsheet formulas, your tools can be updated quickly
+by a business person. Our vision is to introduce new quality and way, how businesses build their own tools.
+
+<center>
+    <img src="/assets/article_images/2015-06-13-4-problems/infographic-2.jpg" />
+</center>
