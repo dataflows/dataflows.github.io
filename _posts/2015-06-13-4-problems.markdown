@@ -9,14 +9,14 @@ tags: business software spreadsheets Excel applications Dataflows
 image: /assets/article_images/2015-06-13-4-problems/4-problems-small.jpg
 ---
 
-Let me start with simple infographic. There are generally 3 ways how businesses get their software
+Let me start with a simple infographic. There are generally 3 ways how businesses get their software
 tools:
 
-* they buy ready application
+* they buy ready-made application
 * they hire/outsource programmers to build new solution
-* they just use Excel and build tool on their own
+* they just use Excel and build the tool on their own
 
-Seems like broad range of possibilites - but notice that each of these ways have disadvantages:
+Seems like a broad range of possibilites - but notice that each of these ways has disadvantages:
 
 <center>
     <img src="/assets/article_images/2015-06-13-4-problems/infographic-1.jpg" />
@@ -24,30 +24,27 @@ Seems like broad range of possibilites - but notice that each of these ways have
 
 ## Problem 1: Cost
 
-Companies have a lot of requirements for their software. To meet them, companies (a) use their own IT department
-(b) they outsource it. Hiring software developers is expensive, so smaller companies usually can't afford it.
+Companies have a lot of requirements for their software. To meet them, companies (a) use their own IT department or
+(b) outsource it. Hiring software developers is expensive, so smaller companies usually can't afford it.
 
 ## Problem 2: Quick adjustments
 
-Business requirements can change rapidly. 
-
-The common story looks like this: company has a tool, where functionalities depend on market situation. They develop this tool with their IT department. And what happens when business situation changes? They order a functionalities update from their IT department and wait several weeks until it is implemented. This is insane! During these weeks, situation can change again many times. IT department can't keep up with the amount of updates. In the effect, company switches to Excel, where business people can instantly adjust their tools on their own.
+Business requirements can change rapidly. The common story looks like this: a company has a tool, where functionalities depend on market situation. They develop this tool with their IT department. And what happens when the business situation changes? They order a functionalities update from their IT department and wait several weeks until it is implemented. This is insane! During these weeks, situation can change again many times. IT department can't keep up with the amount of updates. In the effect, company switches to Excel, where business people can instantly adjust their tools on their own.
 
 ## Problem 3: Reliability
 
 Business tools have to be reliable. Do you trust your Excel spreadsheets? In small solutions it is possible
-to be calm about this. But when solutions grow, there is a huge risk of mistakes in computations. Just read
+to be not worried about this. But when solutions grow, there is a huge risk of mistakes in computations. Just read
 [this list](http://www.eusprig.org/horror-stories.htm) how companies lost milions of dollars because of spreadsheet errors. Reliability is necessary, thus companies switch to dedicated software.
 
 ## Problem 4: Custom functionalities
 
-Again - companies have a lot of special requirements. This may be exporting data to specific kind of report, connecting with external data sources or fancy chart. This is hard to acheve when you buy ready app or use Excel. Usually, the only solution is to hire programmers.
+Again - companies have a lot of special requirements. This may be exporting data to specific kind of a report, connecting with external data sources or adding a fancy chart. This is hard to achieve when you buy ready-made app or use Excel. Usually, the only solution is to hire programmers.
 
 ## There is a way to overcome all these problems
 
-At Dataflows, we see a potential in creating tool which can be used as easily as Excel, where you can build
-powerful and reliable business apps. Thanks to using spreadsheet formulas, your tools can be updated quickly
-by a business person. Our vision is to introduce new quality and way, how businesses build their own tools.
+At Dataflows, we see a potential in creating a tool where you can build powerful and reliable business apps as easily as in Excel. Thanks to using spreadsheet formulas, your tools can be updated quickly
+by a business person. Thanks to package system, JavaScript developers can extend our platform and provide custom functionalities for business people, who model their apps. Our vision is to introduce new quality and a new way for businesses to build their own tools.
 
 <center>
     <img src="/assets/article_images/2015-06-13-4-problems/infographic-2.jpg" />
