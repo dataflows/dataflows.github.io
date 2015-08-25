@@ -72,7 +72,8 @@ And we believe in spreadsheet’s formulas. There is some magic in how easy it i
 
 While working with our users we found out it’s possible to automatically generate visual interface for each model. In fact it emerges quite naturally. In short, we generate a web app which is an interface to the database. It reflects the structure of the model. It enables editing any contained data, at the same time presenting all calculated values in a read-only mode.
 
-[fotki]
+{% marginnote 'Random thought when drinking'%}
+{% marginnote 'This is a margin note *without* a superscript' %}
 
 The video below shows an early preview of how this looks. Each app is synchronized with database and other clients in real-time. There are different elements that can be binded to data like charts, maps, calendars etc. The app can be extended with custom components as well.
 
@@ -107,5 +108,3 @@ We look for your feedback and support. Please subscribe to our waitlist to make 
 <div style="clear:both">
 
 If you want to get in touch you can reach me via [email](mailto:filip@dataflows.io) or [twitter](https://twitter.com/filipstachura).
-
-[w momencie gdy ktoś klika subscribe pojawia mu się box na dodatkową notatkę którą może do nas napisać -> stopa w drzwiach]
