@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Blazing fast app development with formular database: Part 1"
-subtitle:  "TODO"
+title:  "Blazing fast app development with formular database"
+subtitle:  "Part I"
 author: filip
 date:   2015-08-25 21:00:00
 categories: vision
 tags: business software formular database formula formulas Excel applications Dataflows
-image: /assets/article_images/2015-06-13-4-problems/4-problems-small.jpg
+image: /assets/article_images/2015-08-25-blazing-fast-apps/header.jpg
 ---
 The way we program has to change. Too often we spend much more time on setting up the development environment, deployment, handling authorization and data updates than on the actual problem.
 
