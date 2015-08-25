@@ -107,5 +107,3 @@ We look for your feedback and support. Please subscribe to our waitlist to make 
 <div style="clear:both">
 
 If you want to get in touch you can reach me via [email](mailto:filip@dataflows.io) or [twitter](https://twitter.com/filipstachura).
-
-[w momencie gdy ktoś klika subscribe pojawia mu się box na dodatkową notatkę którą może do nas napisać -> stopa w drzwiach]
