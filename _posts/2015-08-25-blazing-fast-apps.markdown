@@ -8,7 +8,6 @@ categories: vision
 tags: business software formular database formula formulas Excel applications Dataflows
 image: /assets/article_images/2015-06-13-4-problems/4-problems-small.jpg
 ---
-
 The way we program has to change. Too often we spend much more time on setting up the development environment, deployment, handling authorization and data updates than on the actual problem.
 
 We’re not the only ones saying this. There has been much said starting from [Alan Kay](http://blog.moryton.net/2007/12/computer-revolution-hasnt-happened-yet.html) in 1997.  A strong recent voice is [Chris Granger](http://www.chris-granger.com/2014/03/27/toward-a-better-programming/).
@@ -47,7 +46,6 @@ SalesPerMonth = MAP(DealsByMonth,
     (month, deals) -> (month, SUM(MAP(deals, (deal) -> deal.value))))
 {% endhighlight %}
 
-
 This snippet defines a fully functional application. Formular database generates a dedicated API for this model. This API lets you change each of the base values, recalculates dependent fields and reactively pushes updates to all clients.
 
 <center>
@@ -58,9 +56,7 @@ The true power of tying computations to data is composition. It lets you build m
 
 One of the core features is that this approach provides natural way of adding unit tests. No one argues with the fact that software has to be automatically tested. When model is fully defined in one place, it gets incredibly easy to create unit tests.
 
-
 #The Big Thing.
-
 We have built this. We want that technology to exist because we are kind of lazy and kind of paranoid about solid, extendable software.
 
 Currently it’s still at an early stage. There’s a lot of work to do, but we have several models of different sizes implemented and used by companies on their data. And after our initial feedback we want to share it with you as well.
@@ -69,9 +65,7 @@ It turns out that this approach simplifies a lot not only for programmers. The c
 
 One of our clients has rebuilt their huge insurance model built in Excel into solid software. During that time we’ve seen amazing things! And by saying amazing I really mean that. Non-programmers have started to do peer review of their formulas on Github. Short after that they’ve adapted to use issues and labels. Oh, and did I mention each model is under continuous integration? As it can be tested automatically, setting this up is same as for developers. It saves hours of manual work on testing spreadsheets.
 
-
 #There is more.
-
 Do we need another database? Probably we don’t, and we don’t aim at building one. We believe in declarative, truly reactive modelling though.
 
 And we believe in spreadsheet’s formulas. There is some magic in how easy it is to grasp Excel for 12 years old kid and a guy with an MBA. Part of that magic is instant feedback and that’s why we want much more.
@@ -80,30 +74,22 @@ While working with our users we found out it’s possible to automatically gener
 
 [fotki]
 
-
 The video below shows an early preview of how this looks. Each app is synchronized with database and other clients in real-time. There are different elements that can be binded to data like charts, maps, calendars etc. The app can be extended with custom components as well.
 
 https://www.youtube.com/watch?v=u8O1gBehZOc
 
-
-
 #What’s new here?
-
 Formular database lets you build applications for collecting, processing and presenting data several times faster.
 
 By keeping the schema and calculations in the same place, formular database is a next step after databases such as Firebase and RethinkDB, which also push updates to clients. Oracle APEX and MS Access are somewhat similar in that they streamline building applications on top of databases, but are heavy and not hackable.
 
 There are other projects exploring the same direction, including Eve and Unison. They are incredibly promising and we keep our fingers crossed for their success. They try to solve somehow overlapping problems but in different ways.
 
-
 #Great, now what?
-
 We want our technology to be open source. We are going to publish the whole thing as soon as it is ready for the preview.
 
 We look for your feedback and support. Please subscribe to our waitlist to make sure you’ll be first to hear about our progress.
 
-
-
-If you want to get in touch you can reach me with filip@dataflows.io or filip_stachura
+If you want to get in touch you can reach me with filip@dataflows.io or [filip_stachura](https://twitter.com/filipstachura)
 
 [w momencie gdy ktoś klika subscribe pojawia mu się box na dodatkową notatkę którą może do nas napisać -> stopa w drzwiach]
