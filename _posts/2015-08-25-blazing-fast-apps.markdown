@@ -76,7 +76,7 @@ While working with our users we found out it’s possible to automatically gener
 
 The video below shows an early preview of how this looks. Each app is synchronized with database and other clients in real-time. There are different elements that can be binded to data like charts, maps, calendars etc. The app can be extended with custom components as well.
 
-{% youtube u8O1gBehZOc %}
+<div class="video"><figure><div class="fluid-width-video-wrapper" style="padding-top: 75%;"><iframe src="//www.youtube.com/embed/u8O1gBehZOc?rel=0" frameborder="0" allowfullscreen="" id="fitvid406118"></iframe></div></figure></div>
 
 #What’s new here?
 Formular database lets you build applications for collecting, processing and presenting data several times faster.
