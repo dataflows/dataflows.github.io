@@ -10,9 +10,9 @@ image: /assets/article_images/2015-06-13-4-problems/4-problems-small.jpg
 ---
 The way we program has to change. Too often we spend much more time on setting up the development environment, deployment, handling authorization and data updates than on the actual problem.
 
-We’re not the only ones saying this. There has been much said starting from [Alan Kay](http://blog.moryton.net/2007/12/computer-revolution-hasnt-happened-yet.html) in 1997.  A strong recent voice is [Chris Granger](http://www.chris-granger.com/2014/03/27/toward-a-better-programming/).
+We’re not the first ones saying this. There has been much said starting from [Alan Kay](http://blog.moryton.net/2007/12/computer-revolution-hasnt-happened-yet.html) in 1997.  A strong recent voice is [Chris Granger](http://www.chris-granger.com/2014/03/27/toward-a-better-programming/).
 
-Many applications are essentially a database, some calculations on the data and an interface. It should take just a few minutes or hours to build such tool. But it currently takes days or weeks.
+Many applications are essentially a database, some calculations on the data and an interface. It should take just a few minutes or hours to build such tool. But it still takes days or weeks.
 
 #Flawed workarounds
 So lets take a minute and think about the alternatives.
@@ -76,7 +76,7 @@ While working with our users we found out it’s possible to automatically gener
 
 The video below shows an early preview of how this looks. Each app is synchronized with database and other clients in real-time. There are different elements that can be binded to data like charts, maps, calendars etc. The app can be extended with custom components as well.
 
-https://www.youtube.com/watch?v=u8O1gBehZOc
+{% youtube u8O1gBehZOc %}
 
 #What’s new here?
 Formular database lets you build applications for collecting, processing and presenting data several times faster.
