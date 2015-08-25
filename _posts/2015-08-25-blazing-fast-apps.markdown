@@ -66,14 +66,20 @@ It turns out that this approach simplifies a lot not only for programmers. The c
 One of our clients has rebuilt their huge insurance model built in Excel into solid software. During that time we’ve seen amazing things! And by saying amazing I really mean that. Non-programmers have started to do peer review of their formulas on Github. Short after that they’ve adapted to use issues and labels. Oh, and did I mention each model is under continuous integration? As it can be tested automatically, setting this up is same as for developers. It saves hours of manual work on testing spreadsheets.
 
 #There is more.
+<span class='marginnote'>
+  <img class='fullwidth' style='border: 1px solid silver' src='/assets/article_images/2015-08-25-blazing-fast-apps/web.png'/>
+  Application and UI *automatically* generated from formular database definition.
+</span>
+<span class='marginnote'>
+  <img class='fullwidth' src='/assets/article_images/2015-08-25-blazing-fast-apps/mobile.png'/>
+  A&nbsp;mobile app can be generated as well.
+</span>
+
 Do we need another database? Probably we don’t, and we don’t aim at building one. We believe in declarative, truly reactive modelling though.
 
 And we believe in spreadsheet’s formulas. There is some magic in how easy it is to grasp Excel for 12 years old kid and a guy with an MBA. Part of that magic is instant feedback and that’s why we want much more.
 
 While working with our users we found out it’s possible to automatically generate visual interface for each model. In fact it emerges quite naturally. In short, we generate a web app which is an interface to the database. It reflects the structure of the model. It enables editing any contained data, at the same time presenting all calculated values in a read-only mode.
-
-{% marginnote 'Random thought when drinking'%}
-{% marginnote 'This is a margin note *without* a superscript' %}
 
 The video below shows an early preview of how this looks. Each app is synchronized with database and other clients in real-time. There are different elements that can be binded to data like charts, maps, calendars etc. The app can be extended with custom components as well.
 
