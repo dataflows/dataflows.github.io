@@ -90,6 +90,27 @@ We want our technology to be open source. We are going to publish the whole thin
 
 We look for your feedback and support. Please subscribe to our waitlist to make sure you’ll be first to hear about our progress.
 
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//excelpanel.us11.list-manage.com/subscribe/post?u=7931d786a3e0a59b9dffd9d10&amp;id=74dd56c069" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_7931d786a3e0a59b9dffd9d10_74dd56c069" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
 If you want to get in touch you can reach me with filip@dataflows.io or [filip_stachura](https://twitter.com/filipstachura)
 
 [w momencie gdy ktoś klika subscribe pojawia mu się box na dodatkową notatkę którą może do nas napisać -> stopa w drzwiach]
